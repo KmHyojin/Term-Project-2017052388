@@ -13,7 +13,7 @@ total_score = -1 # 스코어 변수
 # 게임 메뉴
 def game_menu (i):
 
-    f = open('C:/Users/김효진/PycharmProjects/개인프로젝트/phone_number.txt',mode='a', encoding='utf-8')
+    f = open('phone_number.txt',mode='a', encoding='utf-8')
     global total_score
     score_sum = quizclass.Quiz()
     total_score = total_score + score_sum.score() + i
